@@ -31,7 +31,7 @@ function handleRequest(request, response){
     response.end('Assignment One. Expected Sum of 6 + 3 is 9, Actual Sum returned by program is : ' + sum);
     
     // ASSIGNMENT
-    console.re.log("6 + 3 = ");
+    console.re.log("6 + 3 = "+sum);
     // 1. Add a debug message which ouputs the sum of the simple equation above. Values are available in the augend, addend 
     // and sum (global) variables
     // 2. Add a debug message which ouputs the current values of the augend addend and sum variables
