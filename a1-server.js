@@ -35,6 +35,7 @@ function handleRequest(request, response){
     console.re.log("6 + 3 = "+sum);
     // 1. Add a debug message which ouputs the sum of the simple equation above. Values are available in the augend, addend 
     // and sum (global) variables
+    console.re.log("Current values of variables: Augend = "+augend+" Addend = "+addend+" Sum = "+sum);
     // 2. Add a debug message which ouputs the current values of the augend addend and sum variables
 }
 
