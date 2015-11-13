@@ -49,7 +49,7 @@ server.listen(server_port, server_ip_address, function(){
     // ASSIGNMENT
     console.re.log("Listening for requests...");
     // 3. Add a debug message which ouputs a message indicating the server is started (listening for user requests).
-    
+    console.re.log("Server IP address: "+server_ip_address+" Server port: "+server_port);
     // 4. Add a debug message which ouputs your server ip address and your server port number. Your server ip address 
     // and your server port number values are available in the server_ip_address and server_port program global variables
 });
